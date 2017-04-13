@@ -15,6 +15,26 @@
 		042024EC1E9FA9AF00BD6482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042024EA1E9FA9AF00BD6482 /* LaunchScreen.storyboard */; };
 		042024F71E9FA9AF00BD6482 /* DataBaseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042024F61E9FA9AF00BD6482 /* DataBaseDemoTests.m */; };
 		042025021E9FA9AF00BD6482 /* DataBaseDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025011E9FA9AF00BD6482 /* DataBaseDemoUITests.m */; };
+		0420251E1E9FAA6C00BD6482 /* TTFavouriteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420251D1E9FAA6C00BD6482 /* TTFavouriteManager.m */; };
+		042025231E9FAA7D00BD6482 /* TTMyFavouriteDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025211E9FAA7D00BD6482 /* TTMyFavouriteDBManager.m */; };
+		042025261E9FAA8700BD6482 /* TTCloudSyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025251E9FAA8700BD6482 /* TTCloudSyncManager.m */; };
+		0420252A1E9FAAA600BD6482 /* TTDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025291E9FAAA600BD6482 /* TTDBManager.m */; };
+		0420252D1E9FAB0D00BD6482 /* TTPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420252C1E9FAB0D00BD6482 /* TTPlayerModel.m */; };
+		042025321E9FADEE00BD6482 /* UIDevice+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025311E9FADEE00BD6482 /* UIDevice+Extension.m */; };
+		0420253F1E9FAF8700BD6482 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025351E9FAF8700BD6482 /* FMDatabase.m */; };
+		042025401E9FAF8700BD6482 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025371E9FAF8700BD6482 /* FMDatabaseAdditions.m */; };
+		042025411E9FAF8700BD6482 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025391E9FAF8700BD6482 /* FMDatabasePool.m */; };
+		042025421E9FAF8700BD6482 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420253B1E9FAF8700BD6482 /* FMDatabaseQueue.m */; };
+		042025431E9FAF8700BD6482 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420253E1E9FAF8700BD6482 /* FMResultSet.m */; };
+		042025461E9FB09800BD6482 /* TTFavouriteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025451E9FB09800BD6482 /* TTFavouriteModel.m */; };
+		042025491E9FB0CB00BD6482 /* TTDataListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025481E9FB0CB00BD6482 /* TTDataListModel.m */; };
+		0420254C1E9FB11200BD6482 /* NSTimer+TTWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420254B1E9FB11200BD6482 /* NSTimer+TTWeakTimer.m */; };
+		042025521E9FB16D00BD6482 /* TTReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420254F1E9FB16D00BD6482 /* TTReachability.m */; };
+		042025531E9FB16D00BD6482 /* TTReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025511E9FB16D00BD6482 /* TTReachabilityManager.m */; };
+		042025561E9FB25500BD6482 /* TTDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025551E9FB25500BD6482 /* TTDataRequest.m */; };
+		042025591E9FB2BB00BD6482 /* CommonCookieAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 042025581E9FB2BB00BD6482 /* CommonCookieAuth.m */; };
+		0420255C1E9FB4B200BD6482 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 0420255B1E9FB4B200BD6482 /* NSString+Util.m */; };
+		0420255F1E9FB50D00BD6482 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0420255E1E9FB50D00BD6482 /* libsqlite3.0.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +71,48 @@
 		042024FD1E9FA9AF00BD6482 /* DataBaseDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataBaseDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042025011E9FA9AF00BD6482 /* DataBaseDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataBaseDemoUITests.m; sourceTree = "<group>"; };
 		042025031E9FA9AF00BD6482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0420251C1E9FAA6C00BD6482 /* TTFavouriteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTFavouriteManager.h; path = FavouriteMgr/TTFavouriteManager.h; sourceTree = "<group>"; };
+		0420251D1E9FAA6C00BD6482 /* TTFavouriteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTFavouriteManager.m; path = FavouriteMgr/TTFavouriteManager.m; sourceTree = "<group>"; };
+		042025201E9FAA7D00BD6482 /* TTMyFavouriteDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTMyFavouriteDBManager.h; path = DatabaseMgr/TTMyFavouriteDBManager.h; sourceTree = "<group>"; };
+		042025211E9FAA7D00BD6482 /* TTMyFavouriteDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTMyFavouriteDBManager.m; path = DatabaseMgr/TTMyFavouriteDBManager.m; sourceTree = "<group>"; };
+		042025241E9FAA8700BD6482 /* TTCloudSyncManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTCloudSyncManager.h; path = CloudSyncMgr/TTCloudSyncManager.h; sourceTree = "<group>"; };
+		042025251E9FAA8700BD6482 /* TTCloudSyncManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTCloudSyncManager.m; path = CloudSyncMgr/TTCloudSyncManager.m; sourceTree = "<group>"; };
+		042025281E9FAAA600BD6482 /* TTDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTDBManager.h; path = DatabaseMgr/BaseDB/TTDBManager.h; sourceTree = "<group>"; };
+		042025291E9FAAA600BD6482 /* TTDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTDBManager.m; path = DatabaseMgr/BaseDB/TTDBManager.m; sourceTree = "<group>"; };
+		0420252B1E9FAB0D00BD6482 /* TTPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTPlayerModel.h; sourceTree = "<group>"; };
+		0420252C1E9FAB0D00BD6482 /* TTPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTPlayerModel.m; sourceTree = "<group>"; };
+		0420252E1E9FAB7400BD6482 /* KKPlayerControlDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKPlayerControlDefine.h; sourceTree = "<group>"; };
+		0420252F1E9FACFF00BD6482 /* TTDetailDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTDetailDefine.h; sourceTree = "<group>"; };
+		042025301E9FADEE00BD6482 /* UIDevice+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Extension.h"; sourceTree = "<group>"; };
+		042025311E9FADEE00BD6482 /* UIDevice+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Extension.m"; sourceTree = "<group>"; };
+		042025341E9FAF8700BD6482 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = FMDB/FMDatabase.h; sourceTree = "<group>"; };
+		042025351E9FAF8700BD6482 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = FMDB/FMDatabase.m; sourceTree = "<group>"; };
+		042025361E9FAF8700BD6482 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = FMDB/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		042025371E9FAF8700BD6482 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = FMDB/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		042025381E9FAF8700BD6482 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = FMDB/FMDatabasePool.h; sourceTree = "<group>"; };
+		042025391E9FAF8700BD6482 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = FMDB/FMDatabasePool.m; sourceTree = "<group>"; };
+		0420253A1E9FAF8700BD6482 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = FMDB/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		0420253B1E9FAF8700BD6482 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = FMDB/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		0420253C1E9FAF8700BD6482 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = FMDB/FMDB.h; sourceTree = "<group>"; };
+		0420253D1E9FAF8700BD6482 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = FMDB/FMResultSet.h; sourceTree = "<group>"; };
+		0420253E1E9FAF8700BD6482 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = FMDB/FMResultSet.m; sourceTree = "<group>"; };
+		042025441E9FB09800BD6482 /* TTFavouriteModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFavouriteModel.h; sourceTree = "<group>"; };
+		042025451E9FB09800BD6482 /* TTFavouriteModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFavouriteModel.m; sourceTree = "<group>"; };
+		042025471E9FB0CB00BD6482 /* TTDataListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDataListModel.h; sourceTree = "<group>"; };
+		042025481E9FB0CB00BD6482 /* TTDataListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDataListModel.m; sourceTree = "<group>"; };
+		0420254A1E9FB11200BD6482 /* NSTimer+TTWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+TTWeakTimer.h"; sourceTree = "<group>"; };
+		0420254B1E9FB11200BD6482 /* NSTimer+TTWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+TTWeakTimer.m"; sourceTree = "<group>"; };
+		0420254E1E9FB16D00BD6482 /* TTReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTReachability.h; path = Reachability/TTReachability.h; sourceTree = "<group>"; };
+		0420254F1E9FB16D00BD6482 /* TTReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTReachability.m; path = Reachability/TTReachability.m; sourceTree = "<group>"; };
+		042025501E9FB16D00BD6482 /* TTReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTReachabilityManager.h; path = Reachability/TTReachabilityManager.h; sourceTree = "<group>"; };
+		042025511E9FB16D00BD6482 /* TTReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTReachabilityManager.m; path = Reachability/TTReachabilityManager.m; sourceTree = "<group>"; };
+		042025541E9FB25500BD6482 /* TTDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTDataRequest.h; sourceTree = "<group>"; };
+		042025551E9FB25500BD6482 /* TTDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTDataRequest.m; sourceTree = "<group>"; };
+		042025571E9FB2BB00BD6482 /* CommonCookieAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCookieAuth.h; sourceTree = "<group>"; };
+		042025581E9FB2BB00BD6482 /* CommonCookieAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonCookieAuth.m; sourceTree = "<group>"; };
+		0420255A1E9FB4B200BD6482 /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		0420255B1E9FB4B200BD6482 /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		0420255E1E9FB50D00BD6482 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0420255F1E9FB50D00BD6482 /* libsqlite3.0.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +148,7 @@
 				042024F51E9FA9AF00BD6482 /* DataBaseDemoTests */,
 				042025001E9FA9AF00BD6482 /* DataBaseDemoUITests */,
 				042024DA1E9FA9AF00BD6482 /* Products */,
+				0420255D1E9FB50D00BD6482 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +165,21 @@
 		042024DB1E9FA9AF00BD6482 /* DataBaseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				042025611E9FB53C00BD6482 /* Model */,
+				042025601E9FB51C00BD6482 /* Category */,
+				0420254D1E9FB16000BD6482 /* Reachability */,
+				042025331E9FAF7800BD6482 /* FMDB */,
+				0420251B1E9FAA5100BD6482 /* FavouriteMgr */,
+				0420251A1E9FAA4300BD6482 /* DatabaseMgr */,
+				042025191E9FAA3A00BD6482 /* CloudSyncMgr */,
 				042024DF1E9FA9AF00BD6482 /* AppDelegate.h */,
 				042024E01E9FA9AF00BD6482 /* AppDelegate.m */,
 				042024E21E9FA9AF00BD6482 /* ViewController.h */,
 				042024E31E9FA9AF00BD6482 /* ViewController.m */,
+				042025571E9FB2BB00BD6482 /* CommonCookieAuth.h */,
+				042025581E9FB2BB00BD6482 /* CommonCookieAuth.m */,
+				042025541E9FB25500BD6482 /* TTDataRequest.h */,
+				042025551E9FB25500BD6482 /* TTDataRequest.m */,
 				042024E51E9FA9AF00BD6482 /* Main.storyboard */,
 				042024E81E9FA9AF00BD6482 /* Assets.xcassets */,
 				042024EA1E9FA9AF00BD6482 /* LaunchScreen.storyboard */,
@@ -138,6 +213,108 @@
 				042025031E9FA9AF00BD6482 /* Info.plist */,
 			);
 			path = DataBaseDemoUITests;
+			sourceTree = "<group>";
+		};
+		042025191E9FAA3A00BD6482 /* CloudSyncMgr */ = {
+			isa = PBXGroup;
+			children = (
+				042025241E9FAA8700BD6482 /* TTCloudSyncManager.h */,
+				042025251E9FAA8700BD6482 /* TTCloudSyncManager.m */,
+			);
+			name = CloudSyncMgr;
+			sourceTree = "<group>";
+		};
+		0420251A1E9FAA4300BD6482 /* DatabaseMgr */ = {
+			isa = PBXGroup;
+			children = (
+				042025271E9FAA8E00BD6482 /* BaseDB */,
+				042025201E9FAA7D00BD6482 /* TTMyFavouriteDBManager.h */,
+				042025211E9FAA7D00BD6482 /* TTMyFavouriteDBManager.m */,
+			);
+			name = DatabaseMgr;
+			sourceTree = "<group>";
+		};
+		0420251B1E9FAA5100BD6482 /* FavouriteMgr */ = {
+			isa = PBXGroup;
+			children = (
+				0420251C1E9FAA6C00BD6482 /* TTFavouriteManager.h */,
+				0420251D1E9FAA6C00BD6482 /* TTFavouriteManager.m */,
+			);
+			name = FavouriteMgr;
+			sourceTree = "<group>";
+		};
+		042025271E9FAA8E00BD6482 /* BaseDB */ = {
+			isa = PBXGroup;
+			children = (
+				042025281E9FAAA600BD6482 /* TTDBManager.h */,
+				042025291E9FAAA600BD6482 /* TTDBManager.m */,
+			);
+			name = BaseDB;
+			sourceTree = "<group>";
+		};
+		042025331E9FAF7800BD6482 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				042025341E9FAF8700BD6482 /* FMDatabase.h */,
+				042025351E9FAF8700BD6482 /* FMDatabase.m */,
+				042025361E9FAF8700BD6482 /* FMDatabaseAdditions.h */,
+				042025371E9FAF8700BD6482 /* FMDatabaseAdditions.m */,
+				042025381E9FAF8700BD6482 /* FMDatabasePool.h */,
+				042025391E9FAF8700BD6482 /* FMDatabasePool.m */,
+				0420253A1E9FAF8700BD6482 /* FMDatabaseQueue.h */,
+				0420253B1E9FAF8700BD6482 /* FMDatabaseQueue.m */,
+				0420253C1E9FAF8700BD6482 /* FMDB.h */,
+				0420253D1E9FAF8700BD6482 /* FMResultSet.h */,
+				0420253E1E9FAF8700BD6482 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		0420254D1E9FB16000BD6482 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				0420254E1E9FB16D00BD6482 /* TTReachability.h */,
+				0420254F1E9FB16D00BD6482 /* TTReachability.m */,
+				042025501E9FB16D00BD6482 /* TTReachabilityManager.h */,
+				042025511E9FB16D00BD6482 /* TTReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		0420255D1E9FB50D00BD6482 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0420255E1E9FB50D00BD6482 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		042025601E9FB51C00BD6482 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				042025301E9FADEE00BD6482 /* UIDevice+Extension.h */,
+				042025311E9FADEE00BD6482 /* UIDevice+Extension.m */,
+				0420254A1E9FB11200BD6482 /* NSTimer+TTWeakTimer.h */,
+				0420254B1E9FB11200BD6482 /* NSTimer+TTWeakTimer.m */,
+				0420255A1E9FB4B200BD6482 /* NSString+Util.h */,
+				0420255B1E9FB4B200BD6482 /* NSString+Util.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		042025611E9FB53C00BD6482 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0420252F1E9FACFF00BD6482 /* TTDetailDefine.h */,
+				0420252E1E9FAB7400BD6482 /* KKPlayerControlDefine.h */,
+				042025441E9FB09800BD6482 /* TTFavouriteModel.h */,
+				042025451E9FB09800BD6482 /* TTFavouriteModel.m */,
+				042025471E9FB0CB00BD6482 /* TTDataListModel.h */,
+				042025481E9FB0CB00BD6482 /* TTDataListModel.m */,
+				0420252B1E9FAB0D00BD6482 /* TTPlayerModel.h */,
+				0420252C1E9FAB0D00BD6482 /* TTPlayerModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +450,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0420254C1E9FB11200BD6482 /* NSTimer+TTWeakTimer.m in Sources */,
+				0420252D1E9FAB0D00BD6482 /* TTPlayerModel.m in Sources */,
+				042025411E9FAF8700BD6482 /* FMDatabasePool.m in Sources */,
+				0420255C1E9FB4B200BD6482 /* NSString+Util.m in Sources */,
+				042025431E9FAF8700BD6482 /* FMResultSet.m in Sources */,
 				042024E41E9FA9AF00BD6482 /* ViewController.m in Sources */,
 				042024E11E9FA9AF00BD6482 /* AppDelegate.m in Sources */,
+				042025531E9FB16D00BD6482 /* TTReachabilityManager.m in Sources */,
+				042025421E9FAF8700BD6482 /* FMDatabaseQueue.m in Sources */,
+				042025591E9FB2BB00BD6482 /* CommonCookieAuth.m in Sources */,
+				0420253F1E9FAF8700BD6482 /* FMDatabase.m in Sources */,
+				042025561E9FB25500BD6482 /* TTDataRequest.m in Sources */,
+				042025521E9FB16D00BD6482 /* TTReachability.m in Sources */,
+				042025461E9FB09800BD6482 /* TTFavouriteModel.m in Sources */,
 				042024DE1E9FA9AF00BD6482 /* main.m in Sources */,
+				0420251E1E9FAA6C00BD6482 /* TTFavouriteManager.m in Sources */,
+				0420252A1E9FAAA600BD6482 /* TTDBManager.m in Sources */,
+				042025491E9FB0CB00BD6482 /* TTDataListModel.m in Sources */,
+				042025401E9FAF8700BD6482 /* FMDatabaseAdditions.m in Sources */,
+				042025261E9FAA8700BD6482 /* TTCloudSyncManager.m in Sources */,
+				042025321E9FADEE00BD6482 /* UIDevice+Extension.m in Sources */,
+				042025231E9FAA7D00BD6482 /* TTMyFavouriteDBManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
